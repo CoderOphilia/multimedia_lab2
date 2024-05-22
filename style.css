@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+nav ul{
+    display: flex;
+    font-style: italic;
+    background-color: rgb(192, 190, 190);
+    justify-content: space-between;
+    list-style-type: none; /*This is to remove the bullet point*/
+    height: 40px;
+    padding: 20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    background-color: rgb(240, 237, 237);
+}
+
+a{
+    color: black;
+}
+
+h1{
+    text-shadow: -1px 0 rgb(231, 207, 207), 0 1px rgb(214, 118, 118), 1px 0 rgb(228, 177, 177), 0 -1px black;
+}
+
+div.c1{
+    display: flex;
+    justify-content: space-evenly;
+}
